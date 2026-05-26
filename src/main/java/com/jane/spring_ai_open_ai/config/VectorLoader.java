@@ -15,7 +15,7 @@ import org.springframework.core.io.Resource;
 import java.io.File;
 import java.util.List;
 
-@Configuration
+//@Configuration
 public class VectorLoader {
 
     private static final Logger log = LoggerFactory.getLogger(VectorLoader.class);
