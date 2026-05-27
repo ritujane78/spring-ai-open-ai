@@ -22,7 +22,7 @@ public class AudioController {
                 OpenAiAudioTranscriptionOptions
                         .builder()
                         .language("en")
-                        .responseFormat(OpenAiAudioApi.TranscriptResponseFormat.TEXT)
+                        .responseFormat(OpenAiAudioApi.TranscriptResponseFormat.SRT) // for srt format output
                         .temperature(0.5f)
                         .build();
         AudioTranscriptionPrompt prompt =
