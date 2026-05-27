@@ -11,7 +11,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class PGVectorLoader {
     private static final Logger log = LoggerFactory.getLogger(VectorLoader.class);
 
